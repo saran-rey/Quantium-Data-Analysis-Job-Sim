@@ -48,7 +48,6 @@ This project analyzes customer purchasing behavior and transaction data for a re
 - Required packages:
   ```
   pandas
-  numpy
   matplotlib
   seaborn
   ```
