@@ -1,0 +1,58 @@
+- # Solution template for Task 1
+- Load required libraries and datasets
+- ***EDA***
+	- Examining transaction data
+		- Convert **DATE** column to a date format
+		- Examine **PROD_NAME**
+			- Examine the words in PROD_NAME to see if there are any *incorrect entries* such as products that are not chips
+				- Remove digits, and special characters, and then sort the distinct words by frequency of occurrence..
+				    - to get strip and get a specific element use = (.str.split(" ").str.get(1))
+				- Let's look at the most common words by counting the number of times a word appears and sorting them by this frequency in order of highest to lowest frequency
+				- Remove salsa products
+		- Summarize the data to check for nulls and possible outliers
+			- 200 packets of chips are bought in one transaction.
+			- Filter the dataset to find the outlier
+			- Use a filter to see what other transactions that customer made
+			- It looks like this customer has only had the two transactions over the year and is not an ordinary retail customer. The customer might be buying chips for commercial purposes instead. We'll remove this loyalty card number from further analysis.
+			- Filter out the customer based on the loyalty card number
+			- Re-examine transaction data
+		- Count the number of transactions by date
+			- There's only 364 rows, meaning only 364 dates which indicates a missing date. Let's create a sequence of dates from 1 Jul 2018 to 30 Jun 2019 and use this to create a chart of number of transactions over time to find the missing date.
+			- create a column of dates that includes every day from 1 Jul 2018 to 30 Jun 2019, and join it onto the data to fill in the missing day.
+		- Setting plot themes to format graphs
+		- Plot transactions over time
+			- We can see that there is an increase in purchases in December and a break in late December. Let's zoom in on this.
+			- Filter to December and look at individual days
+			- We can see that the increase in sales occurs in the lead-up to Christmas and that there are zero sales on Christmas day itself. This is due to shops being closed on Christmas day.
+		- brand of chips or pack size from PROD_NAME
+			- Create pack size
+				- Let's plot a histogram of PACK_SIZE since we know that it is a categorical variable and not a continuous variable even though it is numeric. - Plot a histogram showing the number of transactions by pack size
+			- Create brand name
+				- Create a column which contains the brand of the product, by extracting it from the product name - Check the results look reasonable
+				- Some of the brand names look like they are of the same brands - such as RED and RRD, which are both Red Rock Deli chips. Let's combine these together.
+				- Add any additional brand adjustments you think may be required.
+	- Examining customer data
+		- Do some basic summaries of the dataset, including distributions of any key columns.
+		- Merge transaction data to customer data
+			- Let's also check if some customers were not matched on by checking for nulls.
+			- Great, there are no nulls! So all our customers in the transaction data has been accounted for in the customer dataset.
+			- ***Data exploration is now complete***
+	- ***Data analysis*** on customer segments
+		- metrics of interest to the client:
+			- Who spends the most on chips (total sales), describing customers by life stage and how premium their general purchasing behavior is
+			- How many customers are in each segment
+			- How many chips are bought per customer by segment
+			- What's the average chip price by customer segment
+		- We could also ask our data team for more information. Examples are:
+			- The customer's total spend over the period and total spend for each transaction to understand what proportion of their grocery spend is on chips
+			- Proportion of customers in each customer segment overall to compare against the mix of customers who purchase chips
+		- Total sales by LIFESTAGE and PREMIUM_CUSTOMER
+		- Number of customers by LIFESTAGE and PREMIUM_CUSTOMER
+		- Average number of units per customer by LIFESTAGE and PREMIUM_CUSTOMER
+		- Average price per unit by LIFESTAGE and PREMIUM_CUSTOMER
+		- Perform an independent t-test between mainstream vs premium and budget mid age and young singles and couples
+	- Deep dive into specific customer segments for insights
+		- We might want to target customer segments that contribute the most to sales to retain them or further increase sales. Let's look at Mainstream - young singles/couples. For instance, let's find out if they tend to buy a particular brand of chips.
+		- Deep dive into Mainstream, young singles/couples - Work out of there are brands that these two customer segments prefer more than others. You could use a technique called affinity analysis or a-priori analysis (or any other method if you prefer)
+		- find out if our target segment tends to buy larger packs of chips
+		- Preferred pack size compared to the rest of the population
