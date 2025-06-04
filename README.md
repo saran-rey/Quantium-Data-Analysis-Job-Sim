@@ -8,8 +8,8 @@ This project is designed to perform simulations and data analysis using various 
   - raw/: Contains the raw data files that are used as input for the simulations.
   - processed/: Contains the processed data files that result from the simulations.
 - data analysis/: This directory contains notebooks and scripts for data analysis.
-  - Task1*EDA*&DataPrep.ipynb: A Jupyter notebook for exploratory data analysis and data preparation.
-  - Task1_Insight_Analysis.ipynb: A Jupyter notebook for generating insights from the data.
+  -Task1_Part1_Data_Exploration.ipynb: A Jupyter notebook for exploratory data analysis and data preparation.
+  - Task1_Part2_Data_Analysis.ipynb: A Jupyter notebook for generating insights from the data.
   - visuals/: Contains visualizations generated during the data analysis process.
 - Task 1 Solution Template.Rmd: An R Markdown file providing a template for the Quantium Virtual Internship Task 1, guiding through the analysis with scaffolding for solutions.
 - Solution_temp_short_version.md: this is a shortened version of the Solution template containing all the "Over to you" functions
