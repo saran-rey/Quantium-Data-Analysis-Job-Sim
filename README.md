@@ -7,4 +7,4 @@ Quantium’s expertise spans data science (data cleansing, monetization, analyti
 ---
 ## Task 1
 ### Data
-- [[QVI_purchase_behavior.csv]]
+- [QVI_purchase_behavior.csv](https://github.com/saran-rey/Quantium-Data-Analysis-Job-Sim/blob/main/Task%201/data/raw/QVI_purchase_behaviour.csv)
