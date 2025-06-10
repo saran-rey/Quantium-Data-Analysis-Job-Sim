@@ -7,13 +7,13 @@ Quantium’s expertise spans data science (data cleansing, monetization, analyti
 
 [Visit Quantium](https://quantium.com/)  |  [About Quantium](https://quantium.com/about-us/).
 
-## >> Task 1
-### >> Data
+## Task 1
+### Data
 The raw data provided by the Quantium team were:
 - [QVI_purchase_behavior.csv](https://github.com/saran-rey/Quantium-Data-Analysis-Job-Sim/blob/main/Task%201/data/raw/QVI_purchase_behaviour.csv)
 - [QVI_transaction_data.xlsx](https://github.com/saran-rey/Quantium-Data-Analysis-Job-Sim/blob/main/Task%201/data/raw/QVI_transaction_data.xlsx)
 
-### >> Tasks
+### Tasks
 - **Retail Analytics** on chips category was performed to derive insights.
 - Customer Segments that generate high revenue were identified for more to help builf more focused Strategies.
 
