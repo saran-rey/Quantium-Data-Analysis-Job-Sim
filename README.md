@@ -11,11 +11,12 @@ The raw data provided by the Quantium team were:
 - [QVI_transaction_data.xlsx](https://github.com/saran-rey/Quantium-Data-Analysis-Job-Sim/blob/main/Task%201/data/raw/QVI_transaction_data.xlsx)
 
 ### Tasks
-- Retail Analytics on chips category was performed to derive insights.
+- **Retail Analytics** on chips category was performed to derive insights.
 - Customer Segments that generate high revenue were identified for more to help builf more focused Strategies.
 
 ### Code
-- [[Task 1/data analysis/Task1_Part1_Data_Exploration.ipynb]]
+- [Task1_Part1_Data_Exploration.ipynb](https://github.com/saran-rey/Quantium-Data-Analysis-Job-Sim/blob/main/Task%201/data%20analysis/Task1_Part1_Data_Exploration.ipynb)
+- [Task1_Part2_Data_Analysis.ipynb](https://github.com/saran-rey/Quantium-Data-Analysis-Job-Sim/blob/main/Task%201/data%20analysis/Task1_Part2_Data_Analysis.ipynb)
  
 ### [Visuals]
 [Visit visuals](https://github.com/saran-rey/Quantium-Data-Analysis-Job-Sim/tree/main/Task%201/data%20analysis/visuals)
@@ -27,11 +28,26 @@ The raw data provided by the Quantium team were:
 
 ## Task 2
 ### Data
-- [QVI_data.csv](https://github.com/saran-rey/Quantium-Data-Analysis-Job-Sim/blob/main/Task%202/QVI_data.csv)
+The provided raw Data was:
+    - [QVI_data.csv](https://github.com/saran-rey/Quantium-Data-Analysis-Job-Sim/blob/main/Task%202/QVI_data.csv)
+The Processed data from the pervious task allowed to be used to skip the data cleaing again:
+    - [MergedData.csv](https://github.com/saran-rey/Quantium-Data-Analysis-Job-Sim/blob/main/Task%201/data/processed/MergedData.csv)
 
 ### Tasks
-- Control Stores were found for each selected performance metrics for each Trial loyout STORE_NBR Using Pearson Correlation adn Magnitude Difference of Pretrial Period.
+- **Control Stores** were found for each selected performance metrics for each **Trial loyout** STORE_NBR Using **Pearson Correlation** adn **Magnitude Difference** of Pretrial Period.
 - Perfromance of the Trial Store during the trial period were assessed with the help of the selected Control Stores.
+
+### Code
+- Jupyter Notebook Version
+    - [Task2_Data_Analytics.ipynb](https://github.com/saran-rey/Quantium-Data-Analysis-Job-Sim/blob/main/Task%202/Task2_Data_Analytics.ipynb)
+- Python Script
+    - [Task2_Data_Analytics.py](https://github.com/saran-rey/Quantium-Data-Analysis-Job-Sim/blob/main/Task%202/Task2_Data_Analytics.py)
 
 ### Visuals
 [Visit visuals](https://github.com/saran-rey/Quantium-Data-Analysis-Job-Sim/tree/main/Task%202/visualizations)
+
+## Task 3
+### Presentation
+The findings of both the analysis tasks were made into a Presentation using **Powerpoint** to present it to the client in undersatndable business terms Using **Pyramid Principle**.
+
+
