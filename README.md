@@ -18,7 +18,7 @@ The raw data provided by the Quantium team were:
 - [Task1_Part1_Data_Exploration.ipynb](https://github.com/saran-rey/Quantium-Data-Analysis-Job-Sim/blob/main/Task%201/data%20analysis/Task1_Part1_Data_Exploration.ipynb)
 - [Task1_Part2_Data_Analysis.ipynb](https://github.com/saran-rey/Quantium-Data-Analysis-Job-Sim/blob/main/Task%201/data%20analysis/Task1_Part2_Data_Analysis.ipynb)
  
-### [Visuals]
+### Visuals
 [Visit visuals](https://github.com/saran-rey/Quantium-Data-Analysis-Job-Sim/tree/main/Task%201/data%20analysis/visuals)
 
 ### Processed Data
