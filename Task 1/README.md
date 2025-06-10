@@ -7,12 +7,12 @@ This project is designed to perform simulations and data analysis using various 
 ## Project Structure
 
 - data/: This directory contains all the data used in the project.
-- raw/: Contains the raw data files that are used as input for the simulations.
-- processed/: Contains the processed data files that result from the simulations.
+|---- raw/: Contains the raw data files that are used as input for the simulations.
+|---- processed/: Contains the processed data files that result from the simulations.
 - data analysis/: This directory contains notebooks and scripts for data analysis.
-- Task1*EDA*&DataPrep.ipynb: A Jupyter notebook for exploratory data analysis and data preparation.
-- Task1_Insight_Analysis.ipynb: A Jupyter notebook for generating insights from the data.
-- visuals/: Contains visualizations generated during the data analysis process.
+|---- Task1*EDA*&DataPrep.ipynb: A Jupyter notebook for exploratory data analysis and data preparation.
+|---- Task1_Insight_Analysis.ipynb: A Jupyter notebook for generating insights from the data.
+|---- visuals/: Contains visualizations generated during the data analysis process.
 - Task 1 Solution Template.Rmd: An R Markdown file providing a template for the Quantium Virtual Internship Task 1, guiding through the analysis with scaffolding for solutions.
 
 ## Requirements
